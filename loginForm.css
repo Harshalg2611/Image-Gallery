@@ -1,0 +1,144 @@
+*{
+   padding: 0%;
+   margin: 0%;
+   box-sizing: border-box;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+position: relative;
+}
+.container h3{
+  padding-left: 175px;
+  margin: 10px 10px;
+}
+body{
+ background-color: lightgoldenrodyellow;
+ 
+
+}
+.container{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.content{
+background-color: #9B59B6 ;
+width: 55%;
+min-height: 100vh;
+padding:  20px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.image{
+  background-size: contain;
+background-position: center;
+padding-left: 90px;
+}
+.text{
+ color: white; 
+ font-size: 20px;
+}
+form{
+display: flex;
+flex-direction: column;
+padding: 80px 30px;
+width: 45%;
+height: 710px;
+background-color: white;
+/* box-shadow: 10px 10px 15px rgb(192, 183, 183),-10px -10px 15px rgb(192,183,183); */
+}
+.title{
+padding: 10px 10px;
+}
+
+.title p:nth-child(3){
+color: #9B59B6;
+}
+.rowButton{
+margin: 0 10px;
+}
+.rowButton button{
+  padding: 8px 60px;
+  background-color: aliceblue;
+}
+.rowButton button:nth-child(2){
+  background-color: blue;
+  color: white;
+  margin-left: 30px;
+
+}
+section div{
+ position: relative;
+ margin-bottom: 15px;
+}
+
+form section label{
+display: block ;
+/* margin-bottom: 5px; */
+}
+
+form section input{
+ width: 80%;
+ border: 1px solid black;
+ height: 40px;
+ border-radius: 10px;
+ border: 2px solid gray;
+ padding: 0 30px;
+}
+form section input:hover{
+ border: 3px solid orange;
+}
+form section i{
+  position: absolute;
+  padding: 10px ;
+  padding-top: 30px;
+}
+
+.icon1,  .icon2{
+ left: 340px; 
+ top: 20px;
+ opacity: 0;
+}
+.icon1{
+ color: red;
+ padding-left: 130px;
+}
+.icon2{
+ color: green;
+ padding-left: 130px;
+}
+#btn {
+    width: 80%;
+    height: 45px;
+    background-color: #9B59B6;
+    margin-left: 20px;
+    border-radius:8 px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    cursor: pointer;
+  }
+  #btn:hover{
+   background-color: #BB8FCE;
+   
+  }
+  section div{
+  padding-left: 20px;
+  }
+  .error{
+  color: red;
+  }
+  @media (max-width:900px){
+    .container{
+      display: flex;
+      flex-direction: column;
+    }
+    form, .content {
+    width: 100%;
+    }
+    .btn{
+    flex-direction: column;
+    }
+  }
